@@ -70,7 +70,7 @@ button,
 }
 
 .header nav {
-  padding: 24px;
+  padding: 1.125rem 13.25rem;
 }
 
 .header__logo img {
@@ -90,13 +90,26 @@ button,
   margin-bottom: 3px;
 }
 
+.header__links {
+  border: 1px solid red;
+}
+
 .header__links a {
   font-size: 0.875rem;
   color: #9698a6;
+  transition: color 200ms ease-in-out;
+  -webkit-transition: color 200ms ease-in-out;
+  -moz-transition: color 200ms ease-in-out;
+  -ms-transition: color 200ms ease-in-out;
+  -o-transition: color 200ms ease-in-out;
 }
 
 .header__links a:not(:last-child) {
   margin-right: 32px;
+}
+
+.header__links a:hover {
+  color: #2d314d;
 }
 
 .header__cta {
