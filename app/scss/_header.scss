@@ -1,6 +1,7 @@
 .header {
 	nav {
 		padding: 1.125rem 13.25rem;
+        border: 1px solid red;
 	}
 
 	&__logo {
@@ -28,7 +29,7 @@
 	&__links {
         border: 1px solid red;
 		a {
-			font-size: $font-small;
+            position: relative;
 			color: $grayishBlue;
 			transition: color 200ms ease-in-out;
 			-webkit-transition: color 200ms ease-in-out;
@@ -40,8 +41,23 @@
                 margin-right: 32px;
             }
 
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                height: 5px;
+                left: 0;
+                right: 0;
+                bottom: -30px;
+                background: linear-gradient(to right, $limeGreen, $brightCyan);
+                opacity: 0;
+            }
+
 			&:hover {
 				color: $darkBlue;
+                &::before {
+                    opacity: 1;
+                }
 			}
 		}
 	}
