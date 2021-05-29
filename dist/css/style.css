@@ -74,6 +74,12 @@ button,
   border: 1px solid red;
 }
 
+@media (max-width: 63.9375em) {
+  .header nav {
+    padding: 1.375rem 1.5rem;
+  }
+}
+
 .header__logo img {
   width: 8.8125rem;
   height: 1.375rem;
@@ -85,10 +91,24 @@ button,
   width: 26px;
   height: 2px;
   background-color: #2d314d;
+  transition: all 300ms ease-in-out;
+  transform-origin: left center;
 }
 
 .header__menu > span:not(:last-child) {
-  margin-bottom: 3px;
+  margin-bottom: 5px;
+}
+
+.header__menu.open > span:first-child {
+  transform: rotate(45deg);
+}
+
+.header__menu.open > span:nth-child(2) {
+  opacity: 0;
+}
+
+.header__menu.open > span:last-child {
+  transform: rotate(-45deg);
 }
 
 .header__links a {
