@@ -1,7 +1,7 @@
 .header {
 	nav {
 		padding: 1.125rem 13.25rem;
-        border: 1px solid red;
+		border: 1px solid red;
 	}
 
 	&__logo {
@@ -27,37 +27,33 @@
 	}
 
 	&__links {
-        border: 1px solid red;
 		a {
-            position: relative;
+			position: relative;
 			color: $grayishBlue;
-			transition: color 200ms ease-in-out;
-			-webkit-transition: color 200ms ease-in-out;
-			-moz-transition: color 200ms ease-in-out;
-			-ms-transition: color 200ms ease-in-out;
-			-o-transition: color 200ms ease-in-out;
+			transition: color 300ms ease-in-out;
 
 			&:not(:last-child) {
-                margin-right: 32px;
-            }
+				margin-right: 32px;
+			}
 
-            &::before {
-                content: "";
-                display: block;
-                position: absolute;
-                height: 5px;
-                left: 0;
-                right: 0;
-                bottom: -30px;
-                background: linear-gradient(to right, $limeGreen, $brightCyan);
-                opacity: 0;
+			&::before {
+				content: '';
+				display: block;
+				position: absolute;
+				height: 5px;
+				left: 0;
+				right: 0;
+				bottom: -30px;
+				background: linear-gradient(to right, $limeGreen, $brightCyan);
+				opacity: 0;
+				transition: opacity 300ms ease-in-out;
             }
 
 			&:hover {
 				color: $darkBlue;
-                &::before {
-                    opacity: 1;
-                }
+				&::before {
+					opacity: 1;
+				}
 			}
 		}
 	}
@@ -65,5 +61,10 @@
 	&__cta {
 		font-size: $font-small;
 		color: $white;
+        transition: opacity 300ms ease-in-out;
+
+        &:hover {
+            opacity: 0.75;
+        }
 	}
 }

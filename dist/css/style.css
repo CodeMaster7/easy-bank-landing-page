@@ -91,18 +91,10 @@ button,
   margin-bottom: 3px;
 }
 
-.header__links {
-  border: 1px solid red;
-}
-
 .header__links a {
   position: relative;
   color: #9698a6;
-  transition: color 200ms ease-in-out;
-  -webkit-transition: color 200ms ease-in-out;
-  -moz-transition: color 200ms ease-in-out;
-  -ms-transition: color 200ms ease-in-out;
-  -o-transition: color 200ms ease-in-out;
+  transition: color 300ms ease-in-out;
 }
 
 .header__links a:not(:last-child) {
@@ -110,7 +102,7 @@ button,
 }
 
 .header__links a::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   height: 5px;
@@ -119,6 +111,7 @@ button,
   bottom: -30px;
   background: linear-gradient(to right, #31d35c, #2bb7da);
   opacity: 0;
+  transition: opacity 300ms ease-in-out;
 }
 
 .header__links a:hover {
@@ -132,4 +125,9 @@ button,
 .header__cta {
   font-size: 0.875rem;
   color: white;
+  transition: opacity 300ms ease-in-out;
+}
+
+.header__cta:hover {
+  opacity: 0.75;
 }
