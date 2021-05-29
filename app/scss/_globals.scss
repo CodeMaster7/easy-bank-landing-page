@@ -14,6 +14,7 @@ body {
 	padding: 0;
 	font-family: 'Public Sans', sans-serif;
 	font-size: $font-med;
+    font-weight: 300;
 	color: $grayishBlue;
 	line-height: 1.3;
 }
@@ -22,7 +23,6 @@ a,
 a:visited,
 a:hover {
 	text-decoration: none;
-	color: $grayishBlue;
 }
 
 // Flexbox
@@ -45,11 +45,25 @@ a:hover {
 // Buttons
 button,
 .button {
-    padding: 1rem 1.875rem;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    cursor: pointer;
+	padding: 1rem 1.875rem;
+	background: linear-gradient(to right, $limeGreen, $brightCyan);
+    border: 0;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	cursor: pointer;
+    color: $white;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+// Visibility
+.hide-for-mobile {
+    // hide for tablet and mobile viewport widths
+}
+
+.hide-for-desktop {
+    // hide for desktop viewport widths
 }
