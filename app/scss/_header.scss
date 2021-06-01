@@ -34,10 +34,6 @@
         background-color: $white;
 		padding-top: 1.0625rem;
 		padding-bottom: 1.0625rem;
-
-		@include breakpoint-up(large) {
-			padding: 1.125rem 13.25rem;
-		}
 	}
 
 	&__logo {
