@@ -39,7 +39,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
-### Screenshot
+### Performance
 
 [![easybank-chrome-performance.jpg](https://i.postimg.cc/j2fQcTrR/easybank-chrome-performance.jpg)](https://postimg.cc/sGVhftXL)
 
