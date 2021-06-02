@@ -82,7 +82,7 @@
 	&__links {
 		a {
 			position: relative;
-			color: $grayishBlue;
+			color: $darkBlue;
 			transition: color 300ms ease-in-out;
 
 			&:not(:last-child) {
@@ -103,7 +103,7 @@
 			}
 
 			&:hover {
-				color: $darkBlue;
+				color: $grayishBlue;
 				&::before {
 					opacity: 1;
 				}

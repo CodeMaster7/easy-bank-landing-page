@@ -3,7 +3,6 @@
 }
 
 .article {
-
 	&__grid {
 		display: grid;
 		grid-template-columns: 1fr;
@@ -21,14 +20,14 @@
 
 	&__item {
 		border-radius: 0.3125rem;
-        overflow: hidden;
-        background-color: $white;
-        box-shadow: 0px 0.1875rem 0.75rem rgba(0, 0, 0, 0.15);
-        transition: all 150ms ease-in-out;
+		overflow: hidden;
+		background-color: $white;
+		box-shadow: 0px 0.1875rem 0.75rem rgba(0, 0, 0, 0.15);
+		transition: all 150ms ease-in-out;
 
-        &:hover {
-            transform: scale(1.05);
-        }
+		&:hover {
+			transform: scale(1.05);
+		}
 	}
 
 	&__image {
@@ -48,18 +47,27 @@
 	}
 
 	&__author {
-        font-size: 0.625rem;
-        margin-bottom: 0.75rem;
+		font-size: 0.625rem;
+		margin-bottom: 0.75rem;
+        color: $darkBlue;
 	}
 
 	&__title {
-        font-size: 1.0625rem;
-        line-height: 1.2;
-        color: $darkBlue;
-        margin-bottom: 0.5rem;
+		font-size: 18px;
+        font-weight: 700;
+		line-height: 1.2;
+		color: $darkBlue;
+		margin-bottom: 0.5rem;
+		transition: color 150ms ease-in-out;
+
+		&:hover {
+			color: $limeGreen;
+		}
 	}
 
 	&__description {
-        font-size: 0.8125rem;
+		font-size: 0.8125rem;
+        color: $darkBlue;
+        line-height: 1.50;
 	}
 }
