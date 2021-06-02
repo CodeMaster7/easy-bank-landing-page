@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN){:target="_blank" rel="noopener"}
+- Solution URL: [Add solution URL here](<a href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN" target="_blank"></a>)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
