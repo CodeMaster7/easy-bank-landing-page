@@ -89,8 +89,6 @@ css
 
 ## Acknowledgments
 
-* [Udemy - Learn JavaScript: Full-Stack from Scratch](https://www.udemy.com/course/learn-javascript-full-stack-from-scratch/learn/lecture/14678102#questions/7992844)
-* [GitHub Pages](https://pages.github.com)
-* [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-* [Bootstrap 4](https://getbootstrap.com/)
+* [CSS-TRICKS](https://css-tricks.com/)
+* [Netlify](https://www.netlify.com/)
+* [Frontend Mentor](https://www.frontendmentor.io/challenges)
