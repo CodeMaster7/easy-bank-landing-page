@@ -52,7 +52,7 @@ Users should be able to:
 ### What I learned
 
 @mixin and @include
-scss
+
 ```scss
 @mixin square($size, $radius: 0) {
   width: $size;
@@ -84,7 +84,7 @@ css
 ## Author
 
 - Website - [Sam Bonfanti](https://sambonfanti.club/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@CodeMaster7](https://www.frontendmentor.io/profile/CodeMaster7)
 - Linkedin - [sambonfanti](https://www.linkedin.com/in/sambonfanti/)
 
 ## Acknowledgments
